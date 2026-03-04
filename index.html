@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iloilo Route</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2c3e50">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Iloilo Route</h1>
+
+    <select id="routeSelect">
+      <option value="">Select Route</option>
+      <option value="Jaro - City Proper">Jaro - City Proper</option>
+      <option value="Mandurriao - SM">Mandurriao - SM</option>
+      <option value="La Paz - CPU">La Paz - CPU</option>
+    </select>
+
+    <button onclick="showRoute()">Show Info</button>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
