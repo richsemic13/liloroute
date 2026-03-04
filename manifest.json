@@ -1,7 +1,7 @@
 {
   "name": "Iloilo Route App",
   "short_name": "PWA route",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
@@ -21,4 +21,5 @@
       "purpose": "any maskable"
     }
   ]
+
 }
