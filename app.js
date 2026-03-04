@@ -18,6 +18,7 @@ function showRoute() {
 
 /* REGISTER SERVICE WORKER */
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
+  navigator.serviceWorker.register("./service-worker.js", { scope: "./" })
     .then(() => console.log("Service Worker Registered"));
+
 }
